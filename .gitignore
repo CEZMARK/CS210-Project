@@ -1,0 +1,22 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (like your CSV or HTML files)
+*.csv
+*.html
+
+# Ignore any virtual environment
+venv/
+env/
+
+# Ignore other files that might contain sensitive information
+config.py
+
+# Ignore large data files that don't need to be tracked
+*.xlsx
+*.xls
+*.json
